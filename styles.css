@@ -3,22 +3,26 @@ body {
     background-color: bisque;
     margin: 0;
     padding: 0;
-    align-items: center;
+    align-self: center;
 }
 nav {
     margin: 0;
     padding: 0;
+}
+
+nav ul {
+    text-align: center;
     list-style: none;
+    display: inline-table;
+    padding: 0;
+    margin: 0;
 }
 
 nav li a{
-    color: aqua;
-    display: inline;
     text-decoration: none;
-
 }
 
-.noline {
+.no-line {
     text-decoration: none;
 }
 
@@ -26,6 +30,11 @@ h1 p{
     font-size: 1.5em;
     color: #000;
     background-color: antiquewhite;
+}
+
+dt {
+    margin-top: 1.2em;
+    margin-bottom: 0.8em;
 }
 
 #intro {
@@ -46,7 +55,9 @@ h1 p{
 }
 
 .center-content{
-    align-content: center;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    text-align: center;
 }
 
 .header-text {
